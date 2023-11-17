@@ -20,9 +20,8 @@
   scroll-behavior: smooth;
 }
 /* end global rules  */
-body {
-  overflow-x: hidden !important;
-  width: 100%;
+html , body {
+  overflow-x: hidden !important;  
 }
 /* start navbar */
 nav {
@@ -197,7 +196,7 @@ nav {
   position: absolute;
   content: "";
   top: -40px;
-  right: -80px;
+  right: -120px;
   width: 100px;
   height: calc(100% + 80px);
   background: var(--footer-color);
